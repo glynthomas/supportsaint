@@ -1,0 +1,19 @@
+# * support@supportsaint.com
+#
+# Unbios.com • Tech Consultants • Project Managers
+#
+# *!robots.txt v1.00.00 | (c) 2016 unbios
+
+User-agent: *
+
+Disallow: /assets/
+Disallow: /favicons/
+Disallow: /fonts/
+Disallow: /img/
+Disallow: /invoice/*
+Disallow: /social/*
+Disallow: /vid/*
+
+# Independent of user agent. Links in the sitemap are full URLs using https:// and need to match
+# the protocol of the sitemap.
+Sitemap: http://supportsaint.com/sitemap.xml
